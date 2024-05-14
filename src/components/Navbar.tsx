@@ -23,33 +23,31 @@ export default function Navbar() {
   return (
     <header className="bg-background sticky top-0 z-10 w-full">
       <div className="flex h-16 items-center px-4 sm:px-8 lg:px-44">
-        <div className="mx-auto w-full max-w-3xl space-y-20">
-          <div className="flex justify-between">
-            <div className="flex flex-1 items-center justify-start">
+        <div className="mx-auto w-full max-w-3xl">
+          <div className="flex justify-between items-center">
+            <div className="flex items-center">
               {/* Link and site name/icon */}
               <a className="text-primary size-10 p-2" href="/">
-                <FiPaperclip className="size-full" />
+                <FiPaperclip className="h-full w-full" />
               </a>
-              <h1 className="text-primary text-2xl font-bold">HG</h1>
+              <h1 className="text-primary text-lg font-bold">HG</h1>
             </div>
-            <div className="flex flex-1 items-center justify-end">
-              <nav className="flex items-center space-x-1">
-                <ThemeToggle />
-                <a
-                  href="https://www.linkedin.com/in/heine-g%C3%BCnther/"
-                  target="_blank"
-                  className="size-10 p-2 text-primary hover:text-[#0077B5]  dark:hover:text-[#0077B5]"
-                >
-                  <SiLinkedin className="h-full w-full" />
-                </a>
-                <a
-                  href="https://github.com/coding-chef77"
-                  target="_blank"
-                  className="size-10 p-2 text-primary hover:text-[#4078c0]  dark:hover:text-[#4078c0]"
-                >
-                  <SiGithub className="h-full w-full" />
-                </a>
-              </nav>
+            <div className="flex items-center space-x-4">
+              <ThemeToggle />
+              <a
+                href="https://www.linkedin.com/in/heine-g%C3%BCnther/"
+                target="_blank"
+                className="size-10 p-2 text-primary hover:text-[#0077B5] dark:hover:text-[#0077B5]"
+              >
+                <SiLinkedin className="h-6 w-6" />
+              </a>
+              <a
+                href="https://github.com/coding-chef77"
+                target="_blank"
+                className="size-10 p-2 text-primary hover:text-[#4078c0] dark:hover:text-[#4078c0]"
+              >
+                <SiGithub className="h-6 w-6" />
+              </a>
             </div>
           </div>
         </div>
