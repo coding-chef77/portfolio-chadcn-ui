@@ -1,11 +1,14 @@
-import React from "react";
-import { Button } from "./components/ui/button";
 import Navbar from "./components/Navbar";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
+      <TooltipProvider>
+        <Navbar />
+        <ContactPage />
+      </TooltipProvider>
     </div>
   );
 };

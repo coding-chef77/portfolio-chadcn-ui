@@ -1,5 +1,5 @@
 import { useTheme } from "@/hooks/useTheme";
-import { FiPaperclip } from "react-icons/fi";
+import { FiSquare } from "react-icons/fi";
 import { HiMiniSun, HiMiniMoon } from "react-icons/hi2";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 
@@ -28,7 +28,10 @@ export default function Navbar() {
             <div className="flex items-center">
               {/* Link and site name/icon */}
               <a className="text-primary size-10 p-2" href="/">
-                <FiPaperclip className="h-full w-full" />
+                <FiSquare
+                  className="h-full w-full"
+                  style={{ fill: "#FFC400" }}
+                />
               </a>
               <h1 className="text-primary text-lg font-bold">HG</h1>
             </div>
