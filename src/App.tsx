@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import ContactPage from "./pages/ContactPage/ContactPage";
+import CvPage from "./pages/CvPage/CvPage";
 
 const App = () => {
   return (
     <div>
       <TooltipProvider>
         <Navbar />
-        <ContactPage />
+        <CvPage />
       </TooltipProvider>
     </div>
   );
