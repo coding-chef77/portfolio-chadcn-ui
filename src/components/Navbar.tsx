@@ -35,7 +35,7 @@ export default function Navbar() {
               </a>
               <h1 className="text-primary text-lg font-bold">HG</h1>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-1">
               <ThemeToggle />
               <a
                 href="https://www.linkedin.com/in/heine-g%C3%BCnther/"
