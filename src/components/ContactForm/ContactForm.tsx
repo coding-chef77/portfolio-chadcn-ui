@@ -1,11 +1,7 @@
-import { Card } from "../ui/card";
+import CardWrapper from "./CardWrapper";
 
 const ContactForm = () => {
-  return (
-    <Card>
-      <h1>Hi from contact form</h1>
-    </Card>
-  );
+  return <CardWrapper title="Kontakt Meg"></CardWrapper>;
 };
 
 export default ContactForm;
