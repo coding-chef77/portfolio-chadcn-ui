@@ -20,7 +20,7 @@ type CvSectionProps = {
 
 const CvSection: React.FC<CvSectionProps> = ({ title, content }) => (
   <Dialog>
-    <DialogTrigger className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 w-full text-center sm:w-auto">
+    <DialogTrigger className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
       {title}
     </DialogTrigger>
     <DialogContent>
@@ -33,7 +33,7 @@ const CvSection: React.FC<CvSectionProps> = ({ title, content }) => (
 );
 
 const CvPage: React.FC = () => (
-  <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-4 p-4 max-w-full overflow-hidden">
+  <div className="flex flex-wrap justify-center items-center gap-4 p-4">
     <CvSection title="Kontakt info" content={<CvKontakt />} />
     <CvSection title="Utdanning" content={<CvUtdanning />} />
     <CvSection title="Erfaring" content={<CvErfaring />} />
