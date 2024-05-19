@@ -24,7 +24,7 @@ const CvKompetanse: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="overflow-auto max-h-96">
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Faglig
