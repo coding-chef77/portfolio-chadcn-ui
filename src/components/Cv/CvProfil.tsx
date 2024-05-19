@@ -2,7 +2,7 @@ import React from "react";
 
 const CvProfil: React.FC = () => {
   return (
-    <>
+    <div className=" overflow-auto max-h-96">
       <p className="mb-4 text-gray-700 dark:text-gray-300 leading-relaxed">
         Med en solid bakgrunn i mat- og logistikk kombinert med en fullført
         toårig utdannelse som frontend-utvikler, står jeg klar til å ta fatt på
@@ -21,7 +21,7 @@ const CvProfil: React.FC = () => {
         i pressede situasjoner. Drevet av et ønske om å være en verdifull del av
         et team, har jeg med meg både teknisk kompetanse og et unikt perspektiv.
       </p>
-    </>
+    </div>
   );
 };
 
