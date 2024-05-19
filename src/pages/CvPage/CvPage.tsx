@@ -25,7 +25,7 @@ const CvSection: React.FC<CvSectionProps> = ({ title, content }) => (
     </DialogTrigger>
     <DialogContent>
       <DialogHeader>
-        <DialogTitle className="text-lg font-semibold">{title}</DialogTitle>
+        <DialogTitle className="text-2xl font-bold ">{title}</DialogTitle>
       </DialogHeader>
       <DialogDescription>{content}</DialogDescription>
     </DialogContent>
