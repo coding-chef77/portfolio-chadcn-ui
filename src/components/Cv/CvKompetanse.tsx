@@ -1,14 +1,14 @@
 const CvKompetanse: React.FC = () => {
   const kompetanse = {
     faglig: [
-      "Javascript",
-      "HTML5",
-      "CSS3",
-      "React",
-      "VS Code",
-      "Bootstrap5",
+      "Tidsstyring",
+      "IT og Programmering",
+      "Kundeservice",
       "ChatGPT",
-      "Github",
+      "HMS",
+      "Problemløsning",
+      "Teamarbeid",
+      "Brukeropplevelse",
     ],
     personlig: [
       "Strukturert",
