@@ -1,6 +1,12 @@
 const CvErfaring: React.FC = () => {
   const erfaring = [
     {
+      title: "Aktiv arbeidssøker",
+      startDate: "03.23",
+      endDate: "d.d.",
+      description: `Jeg er aktivt på utkikk etter nye muligheter hvor jeg kan bruke mine ferdigheter og fortsette å utvikle meg profesjonelt. Med tanke på at behovet for frontend-utviklere har endret seg siden jeg begynte å studere, håper jeg mine nyutviklede kunnskaper vil gjøre meg til en mer fleksibel arbeidstaker.`,
+    },
+    {
       title: "Bjølsenhjemmet, Kokk (Logistikk)",
       startDate: "09.11",
       endDate: "12.20",
